@@ -56,7 +56,7 @@ def configure_project():
     if not os.path.exists(".env"):
         print("\n" + "⚙️  " + "="*30)
         eth = input("🔹 Enter ETH_ADDRESS (EVM Address): ").strip()
-        key = input("🔹 Enter M_API_KEY (from portal.openmind.orgr: ").strip()
+        key = input("🔹 Enter OM_API_KEY (from portal.openmind.orgr: ").strip()
         urid = input("🔹 Enter URID (from fabric.openmind.org 的 Agent ID): ").strip()
         print("="*34 + "\n")
         
