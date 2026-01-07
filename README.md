@@ -21,4 +21,4 @@ This is a zero-friction deployment tool for the **OpenMind OM1** project. It aut
 Run the following command in your terminal:
 
 ```bash
-curl -O https://raw.githubusercontent.com/你的用户名/仓库名/main/om1_universal_deploy.py && python3 om1_universal_deploy.py
+curl -O https://github.com/changqiao9473/OM1---One-click-deployment-script/tree/main/om1_universal_deploy.py && python3 om1_universal_deploy.py
