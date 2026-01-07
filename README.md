@@ -1,23 +1,24 @@
 # 🚀 OM1 One-Click Deployer
 
-[English](#english) | [中文](#中文)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Platform: macOS / Ubuntu](https://img.shields.io/badge/Platform-macOS%20%2F%20Ubuntu-blue.svg)](https://github.com/OpenMind/OM1)
 
 ---
 
-## English
+<a name="english"></a>
+## 🌐 English
 
-### What is this?
-This script is a **zero-friction deployment tool** for the [OpenMind OM1](https://github.com/OpenMind/OM1) project. It automates the environment setup, dependency installation, and configuration process for macOS and Ubuntu users.
+### 📖 Introduction
+This is a zero-friction deployment tool for the **OpenMind OM1** project. It automates the complex environment setup on Unix-based systems (macOS and Ubuntu), allowing users to join the Fabric network in minutes.
 
-### Key Features
-- **Auto-Dependency Healing**: Installs `PortAudio`, `FFmpeg`, and `uv` automatically.
-- **Interactive Wizard**: Configures your `.env` without touching any code.
-- **Safe Execution**: Automatically runs the `conversation` mode with optimized settings.
+### ✨ Key Features
+- **Auto-Healing**: Automatically detects and installs system-level dependencies (`PortAudio`, `FFmpeg`, `python3-dev`).
+- **Modern Toolchain**: Utilizes `uv` for 10x faster Python package management.
+- **Interactive Wizard**: Step-by-step configuration for `.env` (No code editing required).
+- **Audio Optimized**: Pre-launch check to ensure a smooth `conversation` mode experience.
 
-### How to Run
+### 🚀 Quick Start
+Run the following command in your terminal:
+
 ```bash
-# Download the script
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/om1_universal_deploy.py
-
-# Run it
-python3 om1_universal_deploy.py
+curl -O https://raw.githubusercontent.com/你的用户名/仓库名/main/om1_universal_deploy.py && python3 om1_universal_deploy.py
