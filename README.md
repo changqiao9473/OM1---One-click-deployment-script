@@ -21,7 +21,7 @@ This is a zero-friction deployment tool for the **OpenMind OM1** project. It aut
 Run the following command in your terminal:
 
 ```bash
-git clone https://github.com/changqiao9473/OM1---One-click-deployment-script.git
-cd OM1---One-click-deployment-script
+git clone https://github.com/changqiao9473/OM1-One-click-deployment-script.git
+cd OM1-One-click-deployment-script
 python3 om1_universal_deploy.py
 
